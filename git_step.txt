@@ -11,4 +11,4 @@ git push crystal3a --tags origin master
 
 git add .
 git commit -am "make it better"
-git push heroku master
+git push crystal3a
