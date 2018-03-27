@@ -1,0 +1,14 @@
+#http://dokelung-blog.logdown.com/posts/238050-collation-and-publishing-of-the-project-from-github-to-pypi
+git clone https://github.com/crystal3a/myblog.git
+git status
+//copy file to myblog
+git add .
+git status
+git commit -m "first commit"
+git push crystal3a master
+git tag v1.0 -m "first realease"
+git push crystal3a --tags origin master
+
+git add .
+git commit -am "make it better"
+git push heroku master
